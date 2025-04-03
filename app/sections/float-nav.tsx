@@ -14,12 +14,12 @@ export function FloatingDockDemo() {
 
     {
       title: "LinkedIn",
-      icon: <img src="/extra/link.svg" alt="" />,
+      icon: <Image src="/extra/link.svg" alt="" />,
       href: "https://www.linkedin.com/in/web-devloper-amaan-khan",
     },
     {
       title: "Github",
-      icon: <img src="/extra/git.svg" alt="" />,
+      icon: <Image src="/extra/git.svg" alt="" />,
       href: "https://github.com/Akgithhub",
     },
     {
@@ -31,19 +31,19 @@ export function FloatingDockDemo() {
     },
     {
       title: "Contact",
-      icon: <img src="/extra/mail.svg" alt="" />,
+      icon: <Image src="/extra/mail.svg" alt="" />,
       href: "mailto:amaan07devloper@gmail.com",
     },
     {
       title: "Resume",
-      icon: <img src="/extra/w-resume.svg" alt="Resume" />,
+      icon: <Image src="/extra/w-resume.svg" alt="Resume" />,
       href: "https://drive.google.com/file/d/1x48XcsXKOa-iURm3gAyRlYgX-E51SvbI/view?usp=sharing",
       target: "_blank",
       rel: "noopener noreferrer",
     },
     {
       title: "Projects",
-      icon: <img src="/extra/project.svg" alt="projects" />,
+      icon: <Image src="/extra/project.svg" alt="projects" />,
       href: "#myprojects",
     },
   ];
