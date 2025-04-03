@@ -137,12 +137,12 @@ export function TabsDemo() {
                         Feature:
                       </span>
                       <p className="text-gray-300">
-                        An Automated Ai Powered Chat Bot.Combines a sleek React frontend with a powerful Node.js
-                        and MongoDB backend. Enjoy secure authentication via
-                        Clerk, dynamic AI interactions, and smooth navigation
-                        with React Router DOM. Experience the future of
-                        intelligent communication with seamless data handling
-                        and cutting-edge technology!
+                        An Automated Ai Powered Chat Bot.Combines a sleek React
+                        frontend with a powerful Node.js and MongoDB backend.
+                        Enjoy secure authentication via Clerk, dynamic AI
+                        interactions, and smooth navigation with React Router
+                        DOM. Experience the future of intelligent communication
+                        with seamless data handling and cutting-edge technology!
                       </p>
                       <button className="mt-4 md:mt-6 bg-[#111827] border-2 border-[#88ab8e] px-4 py-2 md:px-6 md:py-3 rounded-md text-white font-medium hover:bg-[#88ab8e] hover:text-[#111827] transition-all text-[15px]">
                         <a
@@ -182,18 +182,48 @@ export function TabsDemo() {
                       Tomato: Your Ultimate Food Delivery App!
                     </h1>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6 my-4 md:my-6 font-medium text-sm md:text-lg">
-                      <Image src="/extra/react.png" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/mongodb.png" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/express.svg" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/node.png" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/tailwind.png" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/stripe.png" alt=""    width={500}
-                height={500} />
+                      <Image
+                        src="/extra/react.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/mongodb.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/express.svg"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/node.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/tailwind.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/stripe.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
                     </div>
                   </div>
                 </>
@@ -290,18 +320,33 @@ export function TabsDemo() {
                       Xcrypto: Crypto Tracking App
                     </h1>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6 my-4 md:my-6 font-medium text-sm md:text-lg">
-                      <Image src="/extra/react.png" alt=""    width={500}
-                height={500} />
-                      <Image src="/extra/chakra.png" alt=""    width={500}
-                height={500} />
+                      <Image
+                        src="/extra/react.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
+                      <Image
+                        src="/extra/chakra.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
                       <div className="bg-[#1f3680] p-3 rounded-xl hover:scale-110 transition-all">
                         Chart.js
                       </div>
                       <div className="bg-[#7442d1] p-3 rounded-xl hover:scale-110 transition-all">
                         Axios
                       </div>
-                      <Image src="/extra/tailwind.png" alt=""    width={500}
-                height={500} />
+                      <Image
+                        src="/extra/tailwind.png"
+                        alt=""
+                        className="w-8 md:w-12"
+                        width={500}
+                        height={500}
+                      />
                     </div>
                   </div>
                 </>
@@ -381,7 +426,10 @@ export function TabsDemo() {
   ];
 
   return (
-    <div id="myprojects" className="h-[80rem] md:h-[80vh] [perspective:1000px] relative flex flex-col lg:max-w-5xl mx-auto lg:w-full w-[90%] items-start justify-start lg:mb-[300px] backdrop-blur-md ">
+    <div
+      id="myprojects"
+      className="h-[80rem] md:h-[80vh] [perspective:1000px] relative flex flex-col lg:max-w-5xl mx-auto lg:w-full w-[90%] items-start justify-start lg:mb-[300px] backdrop-blur-md "
+    >
       <Tabs tabs={tabs} />
     </div>
   );
