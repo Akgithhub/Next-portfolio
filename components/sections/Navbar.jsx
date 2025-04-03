@@ -12,11 +12,11 @@ import React from "react";
 function Navbar() {
   // const { isOpen, onOpen, onClose } = useDisclosure();
   // const [placement, setPlacement] = React.useState("left");
-  const scrollToSection = () => {
-    document.getElementById("target-section")?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+  // const scrollToSection = () => {
+  //   document.getElementById("target-section")?.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <>
       <div className="h-[4rem] flex justify-around md:justify-between items-center py-[4rem] md:px-[5rem] z-[999]">

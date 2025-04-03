@@ -1,25 +1,25 @@
 "use client";
 import React from "react";
-import { animate, motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
+// import Typewriter from "typewriter-effect";
 import { LampDemo } from "../../app/lamp-section";
 // import { motion } from "motion/react";
 import { LinkPreview } from "../ui/link-preview";
 
 function Myskills() {
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 5, // Change duration to 2 seconds for slower animation
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
+  // const animationClientsCount = () => {
+  //   animate(0, 100, {
+  //     duration: 5, // Change duration to 2 seconds for slower animation
+  //     onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+  //   });
+  // };
 
-  const animationProjectsCount = () => {
-    animate(0, 200, {
-      duration: 5, // Change duration to 2 seconds for slower animation
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
+  // const animationProjectsCount = () => {
+  //   animate(0, 200, {
+  //     duration: 5, // Change duration to 2 seconds for slower animation
+  //     onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
+  //   });
+  // };
   const animations = {
     h1: {
       initial: {

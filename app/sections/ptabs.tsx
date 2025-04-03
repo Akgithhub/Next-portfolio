@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "motion/react";
-import Image from "next/image";
+// import Image from "next/image";
 import { Tabs } from "../../components/ui/tabs";
-import { ImGit } from "react-icons/im";
+// import { ImGit } from "react-icons/im";
 
 export function TabsDemo() {
   const animations1 = {

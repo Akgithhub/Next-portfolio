@@ -2,7 +2,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useForm as userformer } from "@formspree/react";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Contact() {
   const [state, handleSubmit1] = userformer("xwkgyyzj");
