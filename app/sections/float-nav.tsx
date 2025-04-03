@@ -1,13 +1,5 @@
-import React from "react";
 import { FloatingDock } from "../../components/ui/floating-dock";
-import {
-  // IconBrandGithub,
-  // IconBrandX,
-  // IconExchange,
-  IconHome,
-  // IconNewSection,
-  // IconTerminal2,
-} from "@tabler/icons-react";
+import { IconHome } from "@tabler/icons-react";
 import Image from "next/image";
 
 export function FloatingDockDemo() {
@@ -33,12 +25,7 @@ export function FloatingDockDemo() {
     {
       title: "Skills",
       icon: (
-        <Image
-          src="/extra/skill.svg"
-          width={20}
-          height={20}
-          alt="Skills"
-        />
+        <Image src="/extra/skill.svg" width={20} height={20} alt="Skills" />
       ),
       href: "#myskills",
     },
@@ -61,7 +48,10 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    <div id="floatdock" className="flex items-center justify-center w-full fixed lg:bottom-[50px] lg:left-[20px] bottom-[100px] left-[150px]">
+    <div
+      id="floatdock"
+      className="flex items-center justify-center w-full fixed lg:bottom-[50px] lg:left-[20px] bottom-[100px] left-[150px]"
+    >
       <FloatingDock
         mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}

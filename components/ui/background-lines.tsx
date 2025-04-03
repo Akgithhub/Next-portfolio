@@ -5,7 +5,6 @@ import React from "react";
 
 export const BackgroundLines = ({
   children,
-  className,
   svgOptions,
 }: {
   children: React.ReactNode;
