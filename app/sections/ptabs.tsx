@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import { Tabs } from "../../components/ui/tabs";
-
+import Image from "next/image";
 export function TabsDemo() {
   const animations1 = {
     h1: {
@@ -54,28 +54,36 @@ export function TabsDemo() {
                       Orca.AI: Advanced AI Chat System
                     </h1>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6 my-4 md:my-6 font-medium text-sm md:text-lg">
-                      <img
+                      <Image
                         src="/extra/express.svg"
                         alt="Express"
                         className="w-8 md:w-12"
+                        width={500}
+                        height={500}
                       />
-                      <img
+                      <Image
                         src="/extra/mongodb.png"
                         alt="MongoDB"
                         className="w-8 md:w-12"
+                        width={500}
+                        height={500}
                       />
-                      <img
+                      <Image
                         src="/extra/react.png"
                         alt="React"
                         className="w-8 md:w-12"
+                        width={500}
+                        height={500}
                       />
                       <div className="bg-[#cc3f3b] px-4 py-2 rounded-xl hover:scale-110 transition-all text-white text-xs md:text-base">
                         Tanstack Query
                       </div>
-                      <img
+                      <Image
                         src="/extra/gemini.svg"
                         alt="Gemini"
                         className="w-6 md:w-10"
+                        width={500}
+                        height={500}
                       />
                     </div>
                   </div>
@@ -86,10 +94,12 @@ export function TabsDemo() {
               {
                 <>
                   <div className="mx-auto">
-                    <img
+                    <Image
                       src="/orca.jpg"
                       alt="dummy image"
                       className="lg:h-[300px] h-auto w-auto rounded-lg"
+                      width={500}
+                      height={500}
                     />
                   </div>
                 </>
@@ -172,12 +182,18 @@ export function TabsDemo() {
                       Tomato: Your Ultimate Food Delivery App!
                     </h1>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6 my-4 md:my-6 font-medium text-sm md:text-lg">
-                      <img src="/extra/react.png" alt="" />
-                      <img src="/extra/mongodb.png" alt="" />
-                      <img src="/extra/express.svg" alt="" />
-                      <img src="/extra/node.png" alt="" />
-                      <img src="/extra/tailwind.png" alt="" />
-                      <img src="/extra/stripe.png" alt="" />
+                      <Image src="/extra/react.png" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/mongodb.png" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/express.svg" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/node.png" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/tailwind.png" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/stripe.png" alt=""    width={500}
+                height={500} />
                     </div>
                   </div>
                 </>
@@ -187,10 +203,12 @@ export function TabsDemo() {
               {
                 <>
                   <div className="mx-auto">
-                    <img
+                    <Image
                       src="/tomato.jpg"
                       alt="dummy image"
                       className="lg:h-[300px] h-auto w-auto rounded-lg"
+                      width={500}
+                      height={500}
                     />
                   </div>
                 </>
@@ -272,15 +290,18 @@ export function TabsDemo() {
                       Xcrypto: Crypto Tracking App
                     </h1>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6 my-4 md:my-6 font-medium text-sm md:text-lg">
-                      <img src="/extra/react.png" alt="" />
-                      <img src="/extra/chakra.png" alt="" />
+                      <Image src="/extra/react.png" alt=""    width={500}
+                height={500} />
+                      <Image src="/extra/chakra.png" alt=""    width={500}
+                height={500} />
                       <div className="bg-[#1f3680] p-3 rounded-xl hover:scale-110 transition-all">
                         Chart.js
                       </div>
                       <div className="bg-[#7442d1] p-3 rounded-xl hover:scale-110 transition-all">
                         Axios
                       </div>
-                      <img src="/extra/tailwind.png" alt="" />
+                      <Image src="/extra/tailwind.png" alt=""    width={500}
+                height={500} />
                     </div>
                   </div>
                 </>
@@ -290,9 +311,11 @@ export function TabsDemo() {
               {
                 <>
                   <div className="mx-auto">
-                    <img
+                    <Image
                       src="/2.jpg"
                       alt="dummy image"
+                      width={500}
+                      height={500}
                       className="lg:h-[300px] h-auto w-auto rounded-lg"
                     />
                   </div>

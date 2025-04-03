@@ -14,36 +14,55 @@ export function FloatingDockDemo() {
 
     {
       title: "LinkedIn",
-      icon: <Image src="/extra/link.svg" alt="" />,
+      icon: <Image src="/extra/link.svg" alt="" width={500} height={500} />,
       href: "https://www.linkedin.com/in/web-devloper-amaan-khan",
     },
     {
       title: "Github",
-      icon: <Image src="/extra/git.svg" alt="" />,
+      icon: <Image src="/extra/git.svg" alt="" width={500} height={500} />,
       href: "https://github.com/Akgithhub",
     },
     {
       title: "Skills",
       icon: (
-        <Image src="/extra/skill.svg" width={20} height={20} alt="Skills" />
+        <Image
+          src="/extra/skill.svg"
+          alt="Skills"
+          width={500}
+          height={500}
+        />
       ),
       href: "#myskills",
     },
     {
       title: "Contact",
-      icon: <Image src="/extra/mail.svg" alt="" />,
+      icon: <Image src="/extra/mail.svg" alt="" width={500} height={500} />,
       href: "mailto:amaan07devloper@gmail.com",
     },
     {
       title: "Resume",
-      icon: <Image src="/extra/w-resume.svg" alt="Resume" />,
+      icon: (
+        <Image
+          src="/extra/w-resume.svg"
+          alt="Resume"
+          width={500}
+          height={500}
+        />
+      ),
       href: "https://drive.google.com/file/d/1x48XcsXKOa-iURm3gAyRlYgX-E51SvbI/view?usp=sharing",
       target: "_blank",
       rel: "noopener noreferrer",
     },
     {
       title: "Projects",
-      icon: <Image src="/extra/project.svg" alt="projects" />,
+      icon: (
+        <Image
+          src="/extra/project.svg"
+          alt="projects"
+          width={500}
+          height={500}
+        />
+      ),
       href: "#myprojects",
     },
   ];

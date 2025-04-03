@@ -15,7 +15,7 @@ export function MacbookScrollDemo() {
             {/* <Badge className="h-10 w-10 transform -rotate-12" /> */}
           </Link>
         }
-        src={`/linear.webp`}
+        // src={`/linear.webp`}
         showGradient={false}
       />
     </div>
