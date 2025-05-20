@@ -84,17 +84,15 @@ function Main() {
                   </span>
                 </h1>
               </div>
-              <div className="text-[#dcdcdc] py-5">
-                <div className="leading-7 md:leading-8 font-light">
-                  {/* I’m a Full Stack Web Developer with 1.5 years of experience,
+              <div className="text-white py-5 leading-7 md:leading-8 font-light">
+                {/* I’m a Full Stack Web Developer with 1.5 years of experience,
                   specializing in both client-side and server-side development.
                   I work with technologies like React.js, Vue.js, and Next.js
                   for front-end development, and Node.js, Express.js, MongoDB
                   for back-end solutions. I also have experience with DevOps
                   practices, cloud technologies like AWS and Docker, and I’m
                   expanding my knowledge in AI and Machine Learning. */}
-                  <TextGenerateEffectDemo />
-                </div>
+                <TextGenerateEffectDemo />
               </div>
               <div className="pb-7 flex gap-4">
                 <a href="https://www.linkedin.com/in/web-devloper-amaan-khan">

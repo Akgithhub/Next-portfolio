@@ -15,11 +15,11 @@ export function LampDemo() {
           ease: "easeInOut",
         }}
       >
-        <div className="mt-[40px]">
-          <h1 className="text-white text-[2rem] font-semibold">My Experties</h1>
-          <h1 className="text-white lg:text-[4rem] text-[2rem] font-semibold">
+        <div className="mt-[40px] sm:relative sm:top-[50px]">
+          <h1 className="text-white text-[2rem] font-semibold ">My Experties</h1>
+          <h2 className="text-white lg:text-[4rem] text-[2rem] font-semibold">
             What <span className="text-[#88ab8e]">I can do</span>
-          </h1>
+          </h2>
         </div>
       </motion.h1>
     </LampContainer>
